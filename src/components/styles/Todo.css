@@ -1,0 +1,10 @@
+.todo {
+    background-color: #7882A4;
+    text-align: center; 
+}
+
+.add-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}

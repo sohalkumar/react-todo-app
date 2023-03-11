@@ -1,0 +1,13 @@
+.todo-container {
+}
+
+.todo-container > h1 {
+    background-color: #D1D1D1;
+    border: 2px solid violet;
+    margin-top: 0;
+    margin-bottom: 2%;
+    padding: 1%;
+    position: sticky;
+    text-align: start;
+    top: 0;
+}
