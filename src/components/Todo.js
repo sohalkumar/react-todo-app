@@ -1,12 +1,11 @@
-import AddToDoItem from "./AddToDoItem";
-import ToDoContainer from "./TodoContainer";
-import "./styles/Todo.css"
+import "./styles/Todo.css";
+import TodoItems from "./TodoItems";
 
 const Todo = () => {
   return (
-    <div className="todo">
-      <ToDoContainer />
-      <AddToDoItem className="add-btn" />
+    <div className="todo-container">
+      <p className="header">to do list</p>
+      <TodoItems />
     </div>
   );
 };

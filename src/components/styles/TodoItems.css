@@ -1,0 +1,100 @@
+.content {
+    margin-top: 2%;
+}
+
+.add-btn {
+    background-color: #7882A4;
+    border: 0;
+    border-radius: 50%;
+    bottom: 5rem;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    height: 3.75rem;
+    position: fixed;
+    right: 6rem;
+    width: 3.75rem;
+}
+
+.add-btn-expanded {
+    background-color: #FF7000;
+    transform: rotate(45deg);
+}
+
+.submit {
+    background-color: #A0D995;
+    bottom: 9rem;
+    cursor: pointer;
+}
+
+.add-input-area {
+    background-color: lightyellow;
+    border: none;
+    border-radius: 10%;
+    bottom: 5rem;
+    font-size: 1.5rem;
+    height: 12rem;
+    padding: 2%;
+    position: fixed;
+    resize: none;
+    right: 10rem;
+    width: 20rem;
+    word-wrap: break-word;
+}
+
+textarea {
+    overflow: auto;
+    outline: none;
+}
+
+/* To Do Item Styling */
+.todo-item {
+    background-color: #EEEEEE;
+    border: 2px #7882A4 solid;
+    /* border-radius: 2rem; */
+    box-shadow: 5px 0px 15px #7882A4;
+    display: inline-block;
+    font-size: larger;
+    height: 15rem;
+    margin: 1%;
+    overflow: auto;
+    padding: 1%;
+    width: 15rem;
+    word-wrap: break-word;
+}
+
+.delete-btn {
+    background-color: rgb(254, 50, 50);
+    border: none;
+    border-radius: 10%;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    height: 2.5rem;
+    margin: 1% 0 0;
+    padding-bottom: 0;
+    width: 5rem;
+}
+
+/* .delete-btn > i {
+    border: 2px black solid;
+    height: 2.5rem;
+    width: 5rem;
+} */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7882A4;
+    border-radius: 10%;
+}
+
+.todo-item::-webkit-scrollbar {
+    width: 5px;
+}
+
+.todo-item::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+}
