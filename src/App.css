@@ -1,0 +1,29 @@
+.header {
+    background-color: white;
+    display: flex;
+    font-size: 3rem;
+    font-family: monospace;
+    padding: 1%;
+    position: sticky;
+    text-align: start;
+    top: 0;
+}
+
+.notes-header {
+    border-radius: 1%;
+    cursor: pointer;
+    margin: 0 0 0 6vw;
+    /* margin: ; */
+    padding: 1%;
+}
+
+.active {
+    background-color: #7882A4;
+    color: white;
+}
+
+.to-do-header {
+    cursor: pointer;
+    margin: 0;
+    padding: 1%;
+}

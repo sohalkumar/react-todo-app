@@ -1,11 +1,11 @@
 import { useState } from "react";
-import "./styles/TodoItems.css";
+import "./styles/Notes.css";
 
 // to do item storage and rendering below this
 
-const TodoItems = () => {
+const Notes = () => {
   // array to contain of all the to-dos
-  const [toDoItemList, setToDoItemList] = useState(["test"]);
+  const [toDoItemList, setToDoItemList] = useState([]);
 
   // state variable to check if the 'add to-do' button is clicked or not
   // initially set as false because by default it is not clicked
@@ -92,8 +92,8 @@ const TodoItems = () => {
   // content to render when no to-dos are available
   const toDoEmpty = (
     <>
-      <h3>no items added!</h3>
-      <p>click the add button below to add</p>
+      <h3>no notes added yet!</h3>
+      <p>click the "+" icon below to add</p>
     </>
   );
 
@@ -115,13 +115,17 @@ const TodoItems = () => {
     );
   });
 
+  
+  
+  
   // returning the JSX
   return (
     <div className="content">
-      {toDoItemList.length > 0 ? toDoNotEmpty : toDoEmpty}
+      {toDoItemList.length === 0 && toDoEmpty}
+      {toDoNotEmpty}
       {clicked ? clickedOnAdd : notClickedOnAdd}
     </div>
   );
 };
 
-export default TodoItems;
+export default Notes;
